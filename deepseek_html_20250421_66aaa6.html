@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líder Distribuidora PB - Distribuição de Bebidas</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Líder Distribuidora PB" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Empresa
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sobre Nós</a></li>
+                            <li><a class="dropdown-item" href="#">Nossa História</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                    <h1>Sua Melhor Opção em Distribuição</h1>
+                    <p class="lead">Atendemos toda a Paraíba com qualidade e agilidade</p>
+                    <a href="#contato" class="btn btn-primary btn-lg">Solicite um Orçamento</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="destaque-box p-4">
+                        <i class="fas fa-truck fa-3x mb-3"></i>
+                        <h4>Entregas Rápidas</h4>
+                        <p>Frota própria para toda a região</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="destaque-box p-4">
+                        <i class="fas fa-boxes fa-3x mb-3"></i>
+                        <h4>Ampla Variedade</h4>
+                        <p>+100 marcas disponíveis</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="destaque-box p-4">
+                        <i class="fas fa-handshake fa-3x mb-3"></i>
+                        <h4>Atendimento Personalizado</h4>
+                        <p>Soluções sob medida</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos Produtos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card produto-card h-100">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Bebidas">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebidas</h5>
+                            <p class="card-text">Cervejas, refrigerantes, energéticos e mais.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais cards conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Líder Distribuidora PB</h5>
+                    <p>Distribuindo qualidade para toda a Paraíba.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contato</h5>
+                    <p><i class="fas fa-phone me-2"></i> (83) 9999-9999</p>
+                    <p><i class="fas fa-envelope me-2"></i> contato@liderdistribuidora.com.br</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Redes Sociais</h5>
+                    <a href="#" class="text-white me-2"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-whatsapp fa-2x"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; 2023 Líder Distribuidora PB. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
